@@ -1,0 +1,14 @@
+﻿1 - Criar Projeto do tipo "Unit Test Project"
+2 - Instalar a extensão do Specflow no VS:
+	2.1 - Tools > Extensions and Updates > Online > SpecFlow for Visual Studio
+3 - Instalar os seguintes Nugets:
+	3.1 - Selenium.Webdriver
+	3.2 - Selenium.Webdriver.ChromeDriver
+	3.3 - Selenium.Support
+	3.4 - Nunit
+	3.5 - Nunit3TestAdapter
+	3.6 - Allure.Commons
+	3.7 - SpecFlow.Allure
+4 - Alterar o nome do config "allureConfig.Template.json" para "allureConfig.json"
+5 - Compilar a solução
+6 - Copiar o config "allureConfig.json" para a pasta bin (Ex.: c:\SeleniumWebDriverTeste\SeleniumWebDriverTeste\bin\Debug) 
